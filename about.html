@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yonatan Pereyra Gómez | Sobre mí</title>
+    <link rel="shortcut icon" href="/img/Logo-2.png" type="image/x-icon">
+    <!-- Bootstrap - it's used here to make the carousel to work properly -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0"
+        nonce="C93guOQ9"></script>
+
+    <div class="nav-section">
+        <div class="logo">
+            <a href="index.html"><img src="/img/Logo-2.png" alt=""></a>
+        </div>
+        <div class="toggle"></div>
+        <div class="menu-items">
+            <ul>
+                <a href="index.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="about.html">
+                    <li>Sobre mí</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contacto</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------ -->
+    <main>
+        <section class="projects-section">
+        <div class="container-about">
+            <h1 class="title">Sobre Yonatan Pereyra Gómez</h1>
+            <img src="img/profile.jpg" alt="">
+            <p>Resido en Misiones - Argentina, soy un dibujante autodidacta. Encontrado de nuevo. Despues de varios años sin dibujar volví a creer en mi sueño de infancia.</p>
+            <p>En el dibujo encontré mi terapia, mi comodidad, mi identidad y mi esencia. Creo que todos somos artistas natos, pero eso lo olvidamos en el arduo proceso de convertirnos en adultos. <strong>¡Pero tu talento sigue ahí, dormido y esperando a que lo despiertes!</strong> Hoy dia me encuentro realizando trabajos por encomiendas a toda mi provincia y tambien en el pais.</p>
+        </div>
+
+        <!-- Carrusel de Imagenes -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+            
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/1.jpg" alt="" id="item" name="item">
+                </div>
+
+                <div class="item">
+                    <img src="img/2.jpg" alt="" id="item" name="item">
+                </div>
+
+                <div class="item">
+                    <img src="img/3.jpg" alt="" id="item" name="item">
+                </div>
+
+                <div class="item">
+                    <img src="img/4.jpg" alt="" id="item" name="item">
+                </div>
+
+                <div class="item">
+                    <img src="img/5.jpg" alt="" id="item" name="item">
+                </div>
+
+                <div class="item">
+                    <img src="img/leon.jpg" alt="" id="item" name="item">
+                </div>
+                <div class="item">
+                    <img src="img/dibujo_bebe.jpg" alt="" id="item" name="item">
+                </div>
+                <div class="item">
+                    <img src="img/chevi.jpg" alt="" id="item" name="item">
+                </div>
+            </div>
+
+
+            <!-- Controles derecha e izquierda -->
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- Modal  -->
+        <div id="myModal" class="modal">
+            <!-- Close Button -->
+            <span class="close">&times</span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+            <iframe class="share-btn" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button&size=large&width=98&height=28&appId" width="98" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+    </section>
+    </main>
+
+    <!-- ------------------------------------------------------------------ -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        $(document).ready(() => {
+            ScrollReveal({ duration: 2000 }).reveal('.container-about');
+        });
+    </script>
+
+    <!-- Get the Modal -->
+    <script src="js/modal.js"></script>
+
+</body>
+
+</html>
