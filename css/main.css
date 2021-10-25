@@ -1,0 +1,212 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');");
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #cccccc;
+}
+
+ul {
+  list-style: none;
+}
+
+#hero-section {
+  background-image: url(/img/banner-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (13em)[2];
+      grid-template-rows: repeat(2, 13em);
+}
+
+#hero-section nav {
+  padding: 0 6em;
+}
+
+#hero-section #nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  height: 5.625em;
+  width: 100%;
+}
+
+#hero-section #nav #logo {
+  width: 6.188rem;
+  height: 6.188rem;
+}
+
+#hero-section #nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#hero-section #nav ul li {
+  margin-right: 2.4em;
+  font-size: 1.1rem;
+}
+
+#hero-section #hero-text-content {
+  width: 50%;
+  padding: 0 6em;
+}
+
+#hero-section #hero-text-content h3 {
+  font-size: 1.575rem;
+  font-weight: 700;
+  color: #333333;
+}
+
+#hero-section #hero-text-content h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  line-height: 1.1em;
+}
+
+#hero-section #hero-text-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.758rem;
+  margin-top: 1em;
+  color: #6B6B6B;
+}
+
+#about-section {
+  background-color: #F9F9F9;
+  height: 20em;
+  padding: 15em 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#about-section #about-content {
+  width: 42%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about-section #about-content h2 {
+  font-size: 3rem;
+  color: #181818;
+}
+
+#about-section #about-content p {
+  font-size: 1rem;
+  color: #6B6B6B;
+  line-height: 1.758rem;
+  margin: 0.3em 0;
+}
+
+#about-section #img-container img {
+  width: 20em;
+  border-radius: 5px;
+}
+
+#drawings-section {
+  padding: 15em 6em;
+}
+
+#drawings-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#drawings-section #drawings-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+}
+
+#drawings-section #drawings-container #drawing-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#drawings-section #drawings-container #drawing-columns .drawing-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+#drawings-section #drawings-container #drawing-columns .drawing-row img {
+  width: 10em;
+}
+
+#drawings-section #drawings-container #horizontal-img img {
+  width: 12.2em;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#footer-section {
+  padding: 6em 6em;
+  background-color: #181818;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer-section p {
+  color: #F9F9F9;
+}
+
+#footer-section #social-networks-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  color: #F9F9F9;
+}
+/*# sourceMappingURL=main.css.map */
