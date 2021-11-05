@@ -1,57 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yonatan Pereyra Gómez | Contáctame</title>
-    <link rel="shortcut icon" href="/img/Logo-2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/Logo-2.png" type="image/x-icon" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-    <div class="nav-section">
-        <div class="logo">
-            <a href="index.html"><img src="/img/Logo-2.png" alt=""></a>
-        </div>
+  <body>
+    <!-- Nav section -->
+    <nav>
+      <div id="nav">
+        <a href="index.html"
+          ><img src="img/logos/Logo.png" alt="Logo" id="logo"
+        /></a>
         <div class="toggle"></div>
-        <div class="menu-items">
-            <ul>
-                <a href="index.html">
-                    <li>Inicio</li>
-                </a>
-                <a href="about.html">
-                    <li>Sobre mí</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contacto</li>
-                </a>
-            </ul>
-        </div>
-    </div>
+        <ul class="side-menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Sobre mí</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <ul>
+          <li><a href="index.html" id="dark-nav">Inicio</a></li>
+          <li><a href="about.html" id="dark-nav">Sobre mí</a></li>
+          <li><a href="contact.html" id="dark-nav">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!-- ------------------------------------------------------------------ -->
-    <section class="contact">
-        <div class="">
-            <h1>Contacto</h1>
-        </div>
+    <section id="contact">
+      <div>
+        <h2>Contacto</h2>
+      </div>
 
-        <div class="contact-container">
-            <form action="mailto:yonnice@hotmail.com">
-                <input type="text" placeholder="Nombre" required>
-                <input type="text" placeholder="Subject">
-                <input type="email" name="" id="" placeholder="Email" required>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
-
+      <div id="contact-container">
+        <form action="mailto:yonnice@hotmail.com" netlify>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" required />
+          <label for="email">Email:</label>
+          <input type="email" name="" id="email" required />
+          <label for="message">Mensaje:</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
     </section>
-</body>
 
+    <footer id="footer-section">
+      <p>All Rights Reserved. Copyright 2021.</p>
+      <div id="payment-methods">
+        <h4>Métodos de Pago</h4>
+        <div>
+          <i class="fab fa-cc-visa fa-3x"></i>
+          <i class="fab fa-cc-mastercard fa-3x"></i>
+          <i class="fab fa-cc-paypal fa-3x"></i>
+        </div>
+      </div>
+      <div id="social-networks-icon">
+        <h4>Redes Sociales</h4>
+        <div>
+          <a href="https://www.facebook.com/yonni.art"
+            ><i class="fab fa-facebook-square fa-3x"></i
+          ></a>
+          <a href="https://www.instagram.com/yonni.art"
+            ><i class="instagram fab fa-instagram fa-3x"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UC1bZCorr0p39xlbWuuwvbrA"
+            ><i class="fab fa-youtube-square fa-3x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toggle function -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
