@@ -204,6 +204,25 @@ ul {
       }
     }
   }
+  @media (max-width: 360px){
+    #hero-section {
+      height: 60vh;
+      nav {
+        #nav {
+          a {
+            #logo {
+              width: 4.188rem;
+              height: 4.188rem;
+            }
+          }
+          .toggle {
+            margin-right: 1em;
+          }
+        }
+      }
+    }
+  }
+
   nav {
     padding: 0 6em;
   }

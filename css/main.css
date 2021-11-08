@@ -231,6 +231,19 @@ ul {
   }
 }
 
+@media (max-width: 360px) {
+  #hero-section {
+    height: 60vh;
+  }
+  #hero-section nav #nav a #logo {
+    width: 4.188rem;
+    height: 4.188rem;
+  }
+  #hero-section nav #nav .toggle {
+    margin-right: 1em;
+  }
+}
+
 nav {
   padding: 0 6em;
 }
