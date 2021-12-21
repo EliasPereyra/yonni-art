@@ -18,6 +18,186 @@ ul {
   list-style: none;
 }
 
+#presentation-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #d1c028;
+  background: -webkit-gradient(linear, left top, right top, from(#d1c028), color-stop(15%, #f2ebae), color-stop(50%, white), color-stop(85%, #f2ebae), to(#d1c028));
+  background: linear-gradient(90deg, #d1c028 0%, #f2ebae 15%, white 50%, #f2ebae 85%, #d1c028 100%);
+}
+
+#presentation-container #presentation-logo {
+  width: 8em;
+  margin-top: 2em;
+}
+
+#presentation-container h1 {
+  font-size: 4rem;
+  color: #000;
+}
+
+#presentation-container h2 {
+  font-size: 2rem;
+  color: #181818;
+}
+
+#presentation-container p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #181818;
+  margin-top: 1em;
+}
+
+#presentation-container hr {
+  height: 0.1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #333333;
+  width: 50%;
+  margin-top: 1em;
+}
+
+#presentation-container #cta-container {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1em;
+  width: 70%;
+}
+
+#presentation-container #cta-container h3 {
+  font-size: 2rem;
+}
+
+#presentation-container #cta-container p {
+  font-size: 4.5rem;
+  color: #e6c01b;
+  margin-top: -0.2em;
+  font-weight: bold;
+}
+
+#presentation-container #cta-container #cta-button {
+  cursor: pointer;
+  background-color: #e6c01b;
+  padding: 1.5em 3em;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#presentation-container #cta-container small {
+  margin-top: -0.5rem;
+  color: #181818;
+  margin-bottom: 4em;
+  font-size: 1rem;
+}
+
+#presentation-container #cta-container i {
+  font-size: 1.2rem;
+  margin-bottom: 4em;
+  color: #181818;
+}
+
+#nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #181818;
+}
+
+#nav-container #checkout-nav-logo {
+  width: 8em;
+  margin: 2em 0;
+}
+
+#nav-container #email-contact h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: white;
+}
+
+#nav-container #email-contact h3 span {
+  font-weight: bold;
+  color: #e6c01b;
+}
+
+#nav-container #email-contact p {
+  font-weight: bold;
+  text-align: right;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#checkout-container {
+  padding: 4em;
+  background: url("../img/banner.png") no-repeat;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+#checkout-container #checkout-content {
+  border-radius: 3px;
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-top: 4em;
+  background-color: #181818;
+  padding: 1em;
+}
+
+#checkout-container #checkout-content h3 {
+  font-size: 1.4rem;
+  margin: 1em 0;
+  color: white;
+}
+
+#checkout-container #checkout-content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+#checkout-container #checkout-content form label {
+  font-size: 1.1rem;
+  margin: 0.5em 0;
+  color: white;
+}
+
+#checkout-container #checkout-content form input {
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
 #hero-section {
   background-image: url(/img/banner-1.jpg);
   background-size: 100%;
