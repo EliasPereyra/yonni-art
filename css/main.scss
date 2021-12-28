@@ -191,7 +191,10 @@ ul {
         border-radius: 5px;
       }
     }
-    
+    #payment-buttons {
+      display: flex;
+      gap: 1em;
+    }
   }
 }
 
