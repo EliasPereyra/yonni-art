@@ -18,7 +18,7 @@ This is a website I've made for the drawer called Yonni, where the best of his w
 
 ## Contact
 
-Elias Pereyra - [@EliasPereyraGo1](https://twitter.com/EliasPereyraGo1)
+Email - [eliaspereyra_gomez@hotmail.com](mailto:eliaspereyra_gomez@hotmail.com)
 
 Project Link: [https://github.com/EliasPereyra/yonni-art](https://github.com/EliasPereyra/yonni-art)
 
