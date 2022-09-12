@@ -1,6 +1,7 @@
-# yonni-art
-
-An official portfolio of the drawer called Yonni from Argentina.
+<div align="center">
+  <h1>yonni.art</h1>
+  <p>An official portfolio of the drawer called Yonni from Argentina.</p>
+</div>
 
 ## About the Project
 
