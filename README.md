@@ -6,7 +6,7 @@
 
 ## About the Project
 
-This is a website I've made for the drawer called Yonni, where the best of his works are shown
+This is a portfolio I've made for the drawer called Yonni, where the best of his works are shown adn where you can contact him.
 
 ### Built with
 
