@@ -1,0 +1,22 @@
+{
+  "name": "yonni-portfolio",
+  "version": "2.0.0",
+  "description": "A portfolio for a drawer and graphic designer from Argentina",
+  "main": "home.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasPereyra/yonni-art.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "javascript"
+  ],
+  "author": "EliasPereyra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasPereyra/yonni-art/issues"
+  },
+  "homepage": "https://github.com/EliasPereyra/yonni-art#readme"
+}

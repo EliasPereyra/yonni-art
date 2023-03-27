@@ -1,101 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yonatan Pereyra Gómez | Sobre mí</title>
-    <link rel="shortcut icon" href="/img/Logo-2.png" type="image/x-icon">
-    <!-- Bootstrap - it's used here to make the carousel to work properly -->
-    
+    <link rel="shortcut icon" href="/img/Logo-2.png" type="image/x-icon" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '277672547824931');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=277672547824931&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0"
-        nonce="C93guOQ9"></script>
-
-    <div class="nav-section">
-        <div class="logo">
-            <a href="index.html"><img src="/img/Logo-2.png" alt=""></a>
-        </div>
-        <div class="toggle"></div>
-        <div class="menu-items">
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="C93guOQ9"></script>
+    <!-- Nav section -->
+    <nav>
+        <div id="nav">
+            <a href="index.html"><img src="img/logos/Logo.png" alt="Logo" id="logo" /></a>
+            <div class="toggle"></div>
+            <ul class="side-menu">
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="about.html">Sobre mí</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
             <ul>
-                <a href="index.html">
-                    <li>Inicio</li>
-                </a>
-                <a href="about.html">
-                    <li>Sobre mí</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contacto</li>
-                </a>
+                <li><a href="index.html" id="dark-nav">Inicio</a></li>
+                <li><a href="about.html" id="dark-nav">Sobre mí</a></li>
+                <li><a href="contact.html" id="dark-nav">Contacto</a></li>
             </ul>
         </div>
-    </div>
-
+    </nav>
     <!-- ------------------------------------------------------------------ -->
     <main>
-        <section class="projects-section">
-        <div class="container-about">
-            <h4>Sobre</h4><h1 class="title">Yonatan Pereyra Gómez</h1>
-            <img src="img/profile.jpg" alt="">
-            <p>Resido en Misiones - Argentina, soy un dibujante autodidacta. Encontrado de nuevo. Después de varios años sin dibujar volví a creer en mi sueño de infancia.</p>
-            <p>En el dibujo encontré mi terapia, mi comodidad, mi identidad y mi esencia. Creo que todos somos artistas natos, pero eso lo olvidamos en el arduo proceso de convertirnos en adultos. <strong>¡Pero tu talento sigue ahí, dormido y esperando a que lo despiertes!</strong> Hoy día me encuentro realizando trabajos por encomiendas a toda mi provincia y también en el país.</p>
+        <section id="container-about">
+            <div>
+                <h2 class="title">Sobre Yonatan Pereyra Gómez</h2>
+                <img src="img/profile/profile.jpeg" alt="Imagen de Perfil" />
+                <div>
+                    <p>
+                        Resido en Misiones - Argentina, soy un dibujante autodidacta.
+                        Encontrado de nuevo. Después de varios años sin dibujar volví a
+                        creer en mi sueño de infancia.
+                    </p>
+                    <p>
+                        En el dibujo encontré mi terapia, mi comodidad, mi identidad y mi
+                        esencia. Creo que todos somos artistas natos, pero eso lo
+                        olvidamos en el arduo proceso de convertirnos en adultos.
+                        <strong>¡Pero tu talento sigue ahí, dormido y esperando a que lo
+                            despiertes!</strong>
+                        Hoy día me encuentro realizando trabajos por encomiendas a toda mi
+                        provincia y también en el país.
+                    </p>
+                </div>
+                <h2>Éstas son encomiendas que he realizado</h2>
+            </div>
+        </section>
+        <div id="gallery-portraits">
+            <a href="img/retratos/01.jpg"><img src="img/retratos/01.jpg" alt="" id="img01" name="item" /></a>
+            <a href="img/retratos/02.jpg"><img src="img/retratos/02.jpg" alt="" id="img02" name="item" /></a>
+            <a href="img/retratos/03.jpg"><img src="img/retratos/03.jpg" alt="" id="img03" name="item" /></a>
+            <a href="img/retratos/04.png"><img src="img/retratos/04.png" alt="" id="img04" name="item" /></a>
+            <a href="img/retratos/05.jpg"><img src="img/retratos/05.jpg" alt="" id="img05" name="item" /></a>
+            <a href="img/retratos/06.jpg"><img src="img/retratos/06.jpg" alt="" id="img06" name="item" /></a>
+            <a href="img/retratos/07.jpg"><img src="img/retratos/07.jpg" alt="" id="img07" name="item" /></a>
+            <a href="img/retratos/08.png"><img src="img/retratos/08.png" alt="" id="img08" name="item" /></a>
+            <a href="img/retratos/baby-father-day.jpg"><img src="img/retratos/baby-father-day.jpg" id="baby-father" alt="" name="item" /></a>
+            <a href="img/retratos/baby.jpg"><img src="img/retratos/baby.jpg" alt="" id="baby" name="item" /></a>
+            <a href="img/retratos/dibujo-bb.jpg"><img src="img/retratos/dibujo-bb.jpg" alt="" id="bebe" name="item" /></a>
+            <a href="img/retratos/girl.jpg"><img src="img/retratos/girl.jpg" alt="" id="girl" name="item" /></a>
+            <a href="img/retratos/nice-girl.jpg"><img src="img/retratos/nice-girl.jpg" alt="" id="nice-girl" name="item" /></a>
+            <a href="img/retratos/niña.jpg"><img src="img/retratos/niña.jpg" alt="" id="niña" name="item" /></a>
+            <a href="img/retratos/pareja.jpg"><img src="img/retratos/pareja.jpg" alt="" id="pareja" name="item" /></a>
+            <a href="img/retratos/retrato.jpg"><img src="img/retratos/retrato.jpg" alt="" id="retrato" name="item" /></a>
         </div>
-
-        <div class="gallery portraits">
-            <a href="img/retratos/01.jpg"><img src="img/retratos/01.jpg" alt="" id="img01" name="item"></a>
-            <a href="img/retratos/02.jpg"><img src="img/retratos/02.jpg" alt="" id="img02" name="item"></a>
-            <a href="img/retratos/03.jpg"><img src="img/retratos/03.jpg" alt="" id="img03" name="item"></a>
-            <a href="img/retratos/04.png"><img src="img/retratos/04.png" alt="" id="img04" name="item"></a>
-            <a href="img/retratos/05.jpg"><img src="img/retratos/05.jpg" alt="" id="img05" name="item"></a>
-            <a href="img/retratos/06.jpg"><img src="img/retratos/06.jpg" alt="" id="img06" name="item"></a>
-            <a href="img/retratos/07.jpg"><img src="img/retratos/07.jpg" alt="" id="img07" name="item"></a>
-            <a href="img/retratos/08.png"><img src="img/retratos/08.png" alt="" id="img08" name="item"></a>
-            <a href="img/retratos/baby-father-day.jpg"><img src="img/retratos/baby-father-day.jpg" id="baby-father" alt="" name="item"></a>   
-            <a href="img/retratos/baby.jpg"><img src="img/retratos/baby.jpg" alt="" id="baby" name="item"></a>
-            <a href="img/retratos/dibujo-bb.jpg"><img src="img/retratos/dibujo-bb.jpg" alt="" id="bebe" name="item"></a>
-            <a href="img/retratos/girl.jpg"><img src="img/retratos/girl.jpg" alt="" id="girl" name="item"></a>
-            <a href="img/retratos/nice-girl.jpg"><img src="img/retratos/nice-girl.jpg" alt="" id="nice-girl" name="item"></a>
-            <a href="img/retratos/niña.jpg"><img src="img/retratos/niña.jpg" alt="" id="niña" name="item"></a>
-            <a href="img/retratos/pareja.jpg"><img src="img/retratos/pareja.jpg" alt="" id="pareja" name="item"></a>
-            <a href="img/retratos/retrato.jpg"><img src="img/retratos/retrato.jpg" alt="" id="retrato" name="item"></a>
+        <div id="contact-prom">
+            <h2>¿Te Gustaría tener un retrato?</h2>
+            <a href="contact.html" id="contact-btn">Contáctame</a>
         </div>
-
-
-        
-
-        
-    </section>
     </main>
-
     <!-- ------------------------------------------------------------------ -->
-    
+    <!-- Toggle function -->
+    <script src="js/script.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-        $(document).ready(() => {
-            ScrollReveal({ duration: 2000 }).reveal('.container-about');
-        });
+    $(document).ready(() => {
+        ScrollReveal({ duration: 2000 }).reveal(".container-about");
+    });
     </script>
-
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"></script>
     <script type="text/javascript">
-        $(function() {
-        const $gallery = $('.gallery a').simpleLightbox();
-      });
+    $(function() {
+        const $gallery = $("#gallery-portraits a").simpleLightbox();
+    });
     </script>
-
 </body>
 
 </html>
