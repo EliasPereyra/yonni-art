@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://yonni.art"><img src="https://github.com/EliasPereyra/yonni-art/blob/main/img/Logo-2.png" target="_blank" width="250" /></a>
+  <a href="https://yonni.art"><img src="https://github.com/EliasPereyra/yonni-art/blob/main/img/logos/Logo-2.png" target="_blank" width="250" /></a>
   <h1>yonni.art</h1>
   <p>An official portfolio of the drawer called Yonni from Argentina.</p>
 </div>
